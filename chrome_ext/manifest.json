@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Hide Twitter Spoiler",
+  "description": "This extension hide twitter spoilers.",
+  "version": "0.1",
+
+  "permissions": [
+    "https://twitter.com/",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*"],
+      "js": ["js/jquery.js", "js/myscript.js", "js/jquery.mustache.js"],
+      "css": ["css/spoiler_tweets.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    "js/jquery-1.10.2.min.map",
+    "template/spoiler_alert.mustache"
+  ]
+}

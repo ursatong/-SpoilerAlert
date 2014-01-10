@@ -1,0 +1,47 @@
+/* Spoiler Tweet Prompt
+-------------------------------------------------- */
+.tweet-not-displayed {
+  padding: 10px;
+  background: #f1f1f1;
+  border-radius: 2px;
+  margin: 10px 0 0;
+}
+.tweet-not-displayed h2 {
+  margin-bottom: 3px;
+  font-size:  14px;
+}
+.tweet-not-displayed p {
+  font-size: 12px;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Redeclared to override Georgia of permalink <p>'s */
+  line-height: 15px;
+  color: #777;
+  padding: 5px 0;
+}
+body.ar .tweet-not-displayed p,
+body.fa .tweet-not-displayed p,
+body.ur .tweet-not-displayed p {
+  font-family: Tahoma, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Redeclared to override Georgia of permalink <p>'s */
+}
+.expanded-content .tweet-not-displayed .btn {
+  padding: 2px 7px;
+  margin-top: 4px;
+  font-size: 11px;
+}
+.expanded-content .tweet-not-displayed .always-display-tweet,
+.expanded-content .tweet-not-displayed .tweet-learn-more {
+  font-size: 12px;
+}
+.permalink .tweet-not-displayed {
+  margin: 20px 0 25px;
+}
+.permalink .tweet-not-displayed h2 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.permalink .tweet-not-displayed p {
+  font-size: 14px;
+  line-height: 18px;
+}
+.permalink .tweet-not-displayed .btn {
+  margin-top: 5px;
+}
