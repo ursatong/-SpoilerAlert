@@ -8,6 +8,8 @@ This extension works on all twitter.com pages, It filters all tweets mentions #S
 
 When you click to show a spoiler, it will show all spoiler tweets from that account post before it. You can also specify to always show spoiler tweets from certain account.
 
+Remember, this is a very premature work that doesn't have any tests and is my first chrome extension. It is educational to me as a proof of concept but not really a product.
+
 #How to install
 In (chrome://extensions/), set it to "Developer mode", load unpacked extension" and choose chrome_ext/ folder.
 Or
