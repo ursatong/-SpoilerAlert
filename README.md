@@ -1,6 +1,6 @@
-#SpoilerAlert
+#\#SpoilerAlert
 
-#HackWeek 2014Q1 Project
+#\#HackWeek 2014Q1 Project
 
 TV show characters interact a lot with their audience during air-time on Twitter. This is very nice. However, not everyone watches the show at the same time (East coast vs west coast, DVR, etc.), they have to avoid their timeline if they are following these characters. It will be nice if we can hide these potentially spoilers for them.
 
