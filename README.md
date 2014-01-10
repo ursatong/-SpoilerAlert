@@ -10,3 +10,6 @@ When you click to show a spoiler, it will show all spoiler tweets from that acco
 
 Tianhao
 2014
+
+Screenshot:
+![alt tag](https://raw.github.com/ursatong/-SpoilerAlert/master/screenshot%20of%20extension%20in%20work.png)
